@@ -1,0 +1,9 @@
+{
+  "name": "access-service",
+  "version": "1.1.0",
+   "description" : "services that perm authentication and authorization",
+  "main": "./index.js",
+  "scripts": {
+    "start": "node index.js"
+  }
+}
