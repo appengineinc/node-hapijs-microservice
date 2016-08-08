@@ -5,12 +5,12 @@ const routes = [
     {  
       method:'POST',
       path:'/login',
-      config: Config.handleLoginRequest // config a microserver for this endpoint
+      config: Config.handleLoginRequest // config a microservice for this endpoint
    },
     {  
       method:'GET',
       path:'/login',
-      config: Config.testGetHandler // config a microserver for this endpoint
+      config: Config.testGetHandler // config a microservice for this endpoint
    }];
 
 
